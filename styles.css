@@ -1,0 +1,108 @@
+body {
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+	font-size: 16px;
+	color: #333;
+	line-height: 21px;
+	cursor: default;
+}
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 560px;
+	padding: 30px;
+}
+.painkillers {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 316px;
+}
+h1, h2, h3 {
+	font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+	font-size: 26px;
+	line-height: 39px;
+	font-weight: normal;
+	color: #AD0E0E;
+}
+h1
+{
+	font-size: 50px;
+	line-height: 55px;
+}
+h3 {
+	font-size: 20px;
+	line-height: 30px;
+}
+hr {
+	margin: 30px 0;
+	color: #AD0E0E;
+	border: 0;
+	border-top: solid 1px #AD0E0E;
+	height: 1px;
+	overflow: hidden;
+	opacity: 0.4;
+}
+.stats {
+	font-size: 26px;
+	line-height: 52px;
+}
+.stats p {
+	font-size: 18px;
+	line-height: 27px;
+}
+strong, a {
+	font-weight: normal;
+	color: #AD0E0E;
+}
+.center
+{
+	margin: 0 auto;
+	text-align: center;
+}
+.small
+{
+	font-size: 14px;
+}
+.paypal-amount-input
+{
+	height: 20px;
+}
+.donateButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ad0e0e), color-stop(1, #ad0e0e));
+	background:-moz-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-webkit-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-o-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-ms-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:linear-gradient(to bottom, #ad0e0e 5%, #ad0e0e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad0e0e', endColorstr='#ad0e0e',GradientType=0);
+	background-color:#ad0e0e;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.donateButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ad0e0e), color-stop(1, #ad0e0e));
+	background:-moz-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-webkit-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-o-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:-ms-linear-gradient(top, #ad0e0e 5%, #ad0e0e 100%);
+	background:linear-gradient(to bottom, #ad0e0e 5%, #ad0e0e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad0e0e', endColorstr='#ad0e0e',GradientType=0);
+	background-color:#ad0e0e;
+}
+.donateButton:active {
+	position:relative;
+	top:1px;
+}

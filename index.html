@@ -3,69 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Remembering Mike Dugan</title>
-        <style>
-            body {
-                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-                font-size: 16px;
-                color: #333;
-                line-height: 21px;
-                cursor: default;
-            }
-            .container {
-                margin: 0 auto;
-                position: relative;
-                width: 560px;
-                padding: 30px;
-            }
-            .painkillers {
-                display: block;
-                margin: 0 auto;
-                position: relative;
-                width: 316px;
-            }
-            h1, h2, h3 {
-                font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-                font-size: 26px;
-                line-height: 39px;
-                font-weight: normal;
-                color: #AD0E0E;
-            }
-            h1
-            {
-                font-size: 50px;
-                line-height: 55px;
-            }
-            h3 {
-                font-size: 20px;
-                line-height: 30px;
-            }
-            hr {
-                margin: 30px 0;
-                color: #AD0E0E;
-                border: 0;
-                border-top: solid 1px #AD0E0E;
-                height: 1px;
-                overflow: hidden;
-                opacity: 0.4;
-            }
-            .stats {
-                font-size: 26px;
-                line-height: 52px;
-            }
-            .stats p {
-                font-size: 18px;
-                line-height: 27px;
-            }
-            strong, a {
-                font-weight: normal;
-                color: #AD0E0E;
-            }
-            .center
-            {
-                margin: 0 auto;
-                text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <div class="container">
@@ -78,6 +16,14 @@
                 <strong>Donations:</strong> 0<br />
                 <strong>Raised:</strong> $0<br />
                 <p>If you would like to donate, please use Paypal to send money to <strong>rememberingmikedugan@gmail.com</strong>. If you don't want to use Paypal, but still would like to donate, please contact <a href="mailto:kayladnls@gmail.com">kayladnls@gmail.com</a>.</p>
+                <p>If you would like to donate using Paypal, you can use the form below.</p>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                    <span class="small">$</span><input class="paypal-amount-input" name="amount" size="3" type="number" min="0" required placeholder="10.00">
+                    <input class="donateButton" type="submit" value="Donate" />
+                    <input name="cmd" type="hidden" value="_xclick"><input name="business" type="hidden" value="rememberingmikedugan@gmail.com">
+                    <input name="currency_code" type="hidden" value="USD">
+                </form>
+
             </div>
             <hr />
             <div class="story">
